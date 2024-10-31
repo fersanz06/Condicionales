@@ -17,10 +17,9 @@ if alumnos >= 100:
 elif alumnos >= 50:
     costo = (alumnos * 70)
     print (f"Cada alumno deberá pagar 70 euros y se le pagarán {costo} euros a la compañía")
+elif alumnos >= 30:
+    costo = (alumnos * 95)
+    print (f"Cada alumno deberá pagar 95 euros y se le pagarán {costo} euros a la compañía")
 else:
-    if alumnos >= 30:
-        costo = (alumnos * 95)
-        print (f"Cada alumno deberá pagar 95 euros y se le pagarán {costo} euros a la compañía")
-    elif alumnos < 30:
-        costo = (4000 / alumnos)
-        print (f"Cada alumno deberá pagar {costo} euros y se le pagarán 4,000 euros a la compañía")
+    costo = (4000 / alumnos)
+    print (f"Cada alumno deberá pagar {costo} euros y se le pagarán 4,000 euros a la compañía")
